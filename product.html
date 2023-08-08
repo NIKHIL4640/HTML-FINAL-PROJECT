@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikon F-601 - Product</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Additional CSS for Product Page */
+    main.product {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: center;
+    }
+
+    main.product img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    }
+
+    main.product .product-details {
+      text-align: left;
+    }
+
+    main.product h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    main.product p {
+      font-size: 1.2rem;
+      color: #fff;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    main.product .buy-now-button {
+      background-color: #e60000;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    main.product .buy-now-button:hover {
+      background-color: #cc0000;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      main.product {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Include the global header -->
+  <header>
+    <h1>Nikon F-601</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content for the product page -->
+  <main class="product">
+    <!-- Your content here -->
+    <img src="image.jpg.jpg" alt="Nikon F-601 Camera">
+    <div class="product-details">
+      <h2>Nikon F-601 Camera</h2>
+      <p>The Nikon F-601 is a reliable and versatile 35mm film camera. It features a fast autofocus system, multiple exposure modes, and a built-in flash for low-light conditions.</p>
+      <p>With its ergonomic design and durable construction, the Nikon F-601 is a perfect companion for any photography adventure.</p>
+      <!-- Add the Buy Now button -->
+      <input type="button" value="BUY NOW" class="buy-now-button">
+    </div>
+  </main>
+
+  <!-- Include the global footer -->
+  <footer>
+    <p>&copy; 2023 Nikon F-601. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
